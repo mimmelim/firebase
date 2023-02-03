@@ -112,7 +112,7 @@ document.querySelector("#leggTilKnapp").addEventListener("click", leggTilPunkt);
 //setDoc gir deg mulighet til å bestemme unik id
 function leggTilPunkt(){
  
-    setDoc(doc(db, "fornavnEtternavn", inputEl2.value),{  //siste parameter er unik id
+    setDoc(doc(db, "fornavnEtternavn", inputEl2.value),{  //siste parameter er unik id. bør ikke være etternavnet til personen, slik det er satt opp her ;)
         fornavn: inputEl1.value,
         etternavn: inputEl2.value
     });
