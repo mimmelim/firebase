@@ -21,9 +21,9 @@ Velg 'Test mode' når du får valget mellom denne og 'Locked mode'. Test mode er
 Velg eur3(Europe) for lagring av data.
 (hvis du får en feilmelding her: steng popupvinduet og velg f.eks realtime database til venstre i menyen (kun for å gå ut av firestore). Deretter trykker du på Firestore database igjen - da vil du se databasen din.)
 Nå kan du legge inn data manuelt i databasen. Lag en collection, og opprett to-tre dokumenter. 
-![Legg inn noen poster](Skjermbilde_felt_value.PNG "poster i collection")
 
-<img src="Skjermbilde_felt_value.PNG" width="100">
+<img src="Skjermbilde_felt_value.PNG" alt="legg inn noen poster i collection" width="400">
+[comment]: <> (ved å legge inn bilde som html kan jeg sette bredde og høyde på bildet)
 
 Husk å endre i fanen Rules: read og write skal settes til 'true', ikke 'false'!
 ![skjermdump av rules i settings](Bilde3_endre_rules.png "Endre til true for read og write")
