@@ -27,6 +27,7 @@ Lær om oppstart i en [youtube-video](https://youtu.be/BjtxPj6jRM8)
 ## HTML-kode
 Legg merke til at vi må sette type til module i script-taggen. Det er fordi firebase 9 er modulbasert. 
 
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,7 +47,7 @@ Legg merke til at vi må sette type til module i script-taggen. Det er fordi fir
     </form>
     <p id="utskriftAvsnitt"></p>
 </body>
-</html>
+</html>```
  
 
 ## JavaScript-kode
