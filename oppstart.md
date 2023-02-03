@@ -26,12 +26,6 @@ Nå kan du legge inn data manuelt i databasen. Lag en collection, og opprett to-
 
 [comment]: <> (ved å legge inn bilde som html kan jeg sette bredde og høyde på bildet)
 
-[//]: # (This may be the most platform independent comment)
-
-```javascript
-
-//kommentere her
-```
 
 Husk å endre i fanen Rules: read og write skal settes til 'true', ikke 'false'!
 ![skjermdump av rules i settings](Bilde3_endre_rules.png "Endre til true for read og write")
@@ -47,7 +41,6 @@ I et cmd-vindu (eller i terminal i Visual Studio Code) - skriv inn `npm install 
 ![skjermdump av ferdig skjema og henta info - i nettleser](Bilde2_skjermdump_skjema_html.png "Skjema og utskrift fra databasen")
 
 Bildet viser inntastingsskjema fra html-kode og utskrift henta fra databasen etterpå.
-
 
 
 ```html
@@ -125,7 +118,7 @@ function leggTilPunkt(){
     });
 }
 ```
-
+Nå skal du kunne fylle ut skjemaet, og observere at dataene lagres i databasen. Dataene hentes også fra databasen, og skrives ut under skjemaet på nettsida.
 
 
 ## Secure your data - i firebase
