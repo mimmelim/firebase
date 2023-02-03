@@ -28,12 +28,9 @@ Husk å endre i fanen Rules: read og write skal settes til 'true', ikke 'false'!
 
 Nå er databasen klar.
 
+![skjermdump av collection og documents](Bilde1_prosjekt_collection_felt_value.png "Databasen er klar")
+
 I et cmd-vindu (eller i terminal i Visual Studio Code) - skriv inn `npm install firebase` for å installere alle moduler. 
-
-## Før kodinga starter
-Legg litt data i databasen, som kan hentes med javascript-kode
-
-![skjermdump av collection og documents](Bilde1_prosjekt_collection_felt_value.png "opprett noen observasjoner manuelt")
 
 
 ## HTML-kode
