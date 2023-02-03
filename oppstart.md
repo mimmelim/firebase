@@ -18,3 +18,5 @@ Se [rules tab nederst](https://firebase.google.com/docs/firestore/quickstart#web
 Lær om oppstart i en [youtube-video](https://youtu.be/BjtxPj6jRM8)
 
 
+   
+
