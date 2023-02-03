@@ -24,6 +24,10 @@ Nå kan du legge inn data manuelt i databasen. Lag en collection, og opprett to-
 
 <img src="Skjermbilde_felt_value.PNG" alt="legg inn noen poster i collection" width="400">
 [comment]: <> (ved å legge inn bilde som html kan jeg sette bredde og høyde på bildet)
+[//]: # (This may be the most platform independent comment)
+```javascript
+//kommentere her
+```
 
 Husk å endre i fanen Rules: read og write skal settes til 'true', ikke 'false'!
 ![skjermdump av rules i settings](Bilde3_endre_rules.png "Endre til true for read og write")
