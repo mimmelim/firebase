@@ -11,11 +11,18 @@ Opprett et Firebase prosjekt ved å klikke 'Add project' i Firebase konsollen. F
 
 Disable Google Analytics hvis du ikke vil 'ha noe med dem å gjøre' :)
 
+Når du kommer til sida "Get started by adding Firebase to your app" velger du web-ikonet ( </> ) og gir appen et navn (du trenger ikke firebase hosting).
+
+Kode-snuttene du får opp videre kan vi finne igjen i prosjektets Settings, så vi trykker knappen continue to console.
+Velg den store, oransje knappen Cloud Firestore og videre create database. 
+
 Velg 'Test mode' når du får valget mellom denne og 'Locked mode'. Test mode er gratis i en periode.
-.
-.
-.
-.
+
+Velg eur3(Europe) for lagring av data.
+
+I cmd-vindu - skriv inn `npm install firebase` for å installere alle moduler. 
+
+
 
 Husk å endre i fanen Rules: read og write skal settes til 'true', ikke 'false'!
 ![skjermdump av rules i settings](Bilde3_endre_rules.png "Endre til true for read og write")
