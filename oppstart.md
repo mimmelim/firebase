@@ -16,17 +16,21 @@ Velg 'Test mode' når du får valget mellom denne og 'Locked mode'. Test mode er
 .
 .
 .
+
 Husk å endre i fanen Rules: read og write skal settes til 'true', ikke 'false'!
 ![skjermdump av rules i settings](Bilde3_endre_rules.png "Endre til true for read og write")
 
-### Secure your data - sett denne helt nederst i dokumentet
-(Disse lenkene er muligens utdaterte. Endringer skjer hyppig hos firebase)
 
-Se [rules tab nederst](https://firebase.google.com/docs/firestore/quickstart#web-version-9) på Firebase sin side.
+## Før kodinga starter
+Legg litt data i databasen, som kan hentes med javascript-kode
 
-Lær om oppstart i en [youtube-video](https://youtu.be/BjtxPj6jRM8)
+![skjermdump av collection og documents](Bilde1_prosjekt_collection_felt_value.png "opprett noen observasjoner manuelt")
+
 
 ## HTML-kode
+![skjermdump av ferdig skjema og henta info - i nettleser](Bilde2_skjermdump_skjema_html.png "Skjema og utskrift fra databasen")
+Bildet viser inntastingsskjema fra html-kode og utskrift henta fra databasen etterpå.
+
 Legg merke til at vi må sette type til module i script-taggen. Det er fordi firebase 9 er modulbasert. 
 
 ```html
@@ -102,3 +106,11 @@ function leggTilPunkt(){
 }
 ```
 
+
+
+## Secure your data - i firebase
+(Disse lenkene er muligens utdaterte. Endringer skjer hyppig hos firebase)
+
+Se [rules tab nederst](https://firebase.google.com/docs/firestore/quickstart#web-version-9) på Firebase sin side.
+
+Lær om oppstart i en [youtube-video](https://youtu.be/BjtxPj6jRM8)
