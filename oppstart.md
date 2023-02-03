@@ -36,6 +36,8 @@ Nå er databasen klar.
 
 I et cmd-vindu (eller i terminal i Visual Studio Code) - skriv inn `npm install firebase` for å installere alle moduler. 
 
+Jeg har opplevd at elev-pc-er ikke har npm installert. Node.js ligger i programvaresenteret. Last det ned og restart Visual Studio Code. Voila :)
+
 
 ## HTML-kode
 ![skjermdump av ferdig skjema og henta info - i nettleser](Bilde2_skjermdump_skjema_html.png "Skjema og utskrift fra databasen")
