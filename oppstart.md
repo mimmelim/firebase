@@ -29,6 +29,7 @@ Legg litt data i databasen, som kan hentes med javascript-kode
 
 ## HTML-kode
 ![skjermdump av ferdig skjema og henta info - i nettleser](Bilde2_skjermdump_skjema_html.png "Skjema og utskrift fra databasen")
+
 Bildet viser inntastingsskjema fra html-kode og utskrift henta fra databasen etterpå.
 
 Legg merke til at vi må sette type til module i script-taggen. Det er fordi firebase 9 er modulbasert. 
