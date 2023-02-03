@@ -1,4 +1,5 @@
 # Firebase database
+
 ## Opprette prosjekt i firebase
 Opprett en profil - eller logg inn på - [Firebase sine nettsider](https://firebase.google.com)
 
@@ -16,8 +17,9 @@ Velg 'Test mode' når du får valget mellom denne og 'Locked mode'. Test mode er
 .
 .
 Husk å endre i fanen Rules: read og write skal settes til 'true', ikke 'false'!
+![skjermdump av rules i settings](Bilde3_endre_rules.png "Endre til true for read og write")
 
-## Secure your data
+### Secure your data - sett denne helt nederst i dokumentet
 (Disse lenkene er muligens utdaterte. Endringer skjer hyppig hos firebase)
 
 Se [rules tab nederst](https://firebase.google.com/docs/firestore/quickstart#web-version-9) på Firebase sin side.
@@ -68,7 +70,7 @@ import {
     setDoc
 } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js';
 const firebaseConfig = {
-    apiKey: "AIzaSyC3av-TC0BVZfd9jo-ASFcVq_gse3bJg0I",  
+    apiKey: "Sett inn din egen apiKey her",  
     authDomain: "testeit1febr23.firebaseapp.com",  
     databaseURL: "https://testeit1febr23-default-rtdb.europe-west1.firebasedatabase.app",  
     projectId: "testeit1febr23",  
