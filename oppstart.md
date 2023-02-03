@@ -23,6 +23,8 @@ Velg eur3(Europe) for lagring av data.
 Nå kan du legge inn data manuelt i databasen. Lag en collection, og opprett to-tre dokumenter. 
 ![Legg inn noen poster](Skjermbilde_felt_value.PNG "poster i collection")
 
+<img src="Skjermbilde_felt_value.PNG" width="100">
+
 Husk å endre i fanen Rules: read og write skal settes til 'true', ikke 'false'!
 ![skjermdump av rules i settings](Bilde3_endre_rules.png "Endre til true for read og write")
 
