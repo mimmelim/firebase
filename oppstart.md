@@ -32,7 +32,7 @@ Legg litt data i databasen, som kan hentes med javascript-kode
 
 Bildet viser inntastingsskjema fra html-kode og utskrift henta fra databasen etterpå.
 
-Legg merke til at vi må sette type til module i script-taggen. Det er fordi firebase 9 er modulbasert. 
+
 
 ```html
 <!DOCTYPE html>
@@ -43,6 +43,9 @@ Legg merke til at vi må sette type til module i script-taggen. Det er fordi fir
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Firebase</title>
     <script src="firebaseV23.js" type="module"></script>
+```
+Legg merke til at vi må sette type til module i script-taggen. Det er fordi firebase 9 er modulbasert. 
+```html
 </head>
 <body>
     <form action="#">
