@@ -23,13 +23,12 @@ Velg eur3(Europe) for lagring av data.
 Nå kan du legge inn data manuelt i databasen. Lag en collection, og opprett to-tre dokumenter. 
 ![Legg inn noen poster](Skjermbilde_felt_value.PNG "poster i collection")
 
-I cmd-vindu - skriv inn `npm install firebase` for å installere alle moduler. 
-
-
-
 Husk å endre i fanen Rules: read og write skal settes til 'true', ikke 'false'!
 ![skjermdump av rules i settings](Bilde3_endre_rules.png "Endre til true for read og write")
 
+Nå er databasen klar.
+
+I et cmd-vindu (eller i terminal i Visual Studio Code) - skriv inn `npm install firebase` for å installere alle moduler. 
 
 ## Før kodinga starter
 Legg litt data i databasen, som kan hentes med javascript-kode
