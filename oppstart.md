@@ -19,6 +19,9 @@ Velg den store, oransje knappen Cloud Firestore og videre create database.
 Velg 'Test mode' når du får valget mellom denne og 'Locked mode'. Test mode er gratis i en periode.
 
 Velg eur3(Europe) for lagring av data.
+(hvis du får en feilmelding her: steng popupvinduet og velg f.eks realtime database til venstre i menyen (kun for å gå ut av firestore). Deretter trykker du på Firestore database igjen - da vil du se databasen din.)
+Nå kan du legge inn data manuelt i databasen. Lag en collection, og opprett to-tre dokumenter. 
+![Legg inn noen poster](Skjermbilde_felt_value.PNG "poster i collection")
 
 I cmd-vindu - skriv inn `npm install firebase` for å installere alle moduler. 
 
