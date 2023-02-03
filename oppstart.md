@@ -47,9 +47,56 @@ Legg merke til at vi må sette type til module i script-taggen. Det er fordi fir
     </form>
     <p id="utskriftAvsnitt"></p>
 </body>
-</html>```
+</html>
+```
  
 
 ## JavaScript-kode
-   
+
+```javascript
+// Import the functions you need from the SDKs you need
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js';
+//import { getAuth } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js';
+import {
+    getFirestore,
+    collection,
+    getDocs,
+    query,
+    //addDoc,
+    //onSnapshot,
+    doc,
+    setDoc
+} from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js';
+const firebaseConfig = {
+    apiKey: "AIzaSyC3av-TC0BVZfd9jo-ASFcVq_gse3bJg0I",  
+    authDomain: "testeit1febr23.firebaseapp.com",  
+    databaseURL: "https://testeit1febr23-default-rtdb.europe-west1.firebasedatabase.app",  
+    projectId: "testeit1febr23",  
+    storageBucket: "testeit1febr23.appspot.com",  
+    messagingSenderId: "363940739359",  
+    appId: "1:363940739359:web:079d0619fe961150ded82a"  
+  };
+  
+// Initialize Firebase
+const app = initializeApp(firebaseConfig); 
+const db = getFirestore();
+const q = query(collection(db, 'fornavnEtternavn')); 
+const dokumenter = await getDocs(q); //await venter til vi har henta dokumentene fra databasen  
+dokumenter.forEach((dokument) => { // funksjon - dokument er en variabel
+    console.log(dokument.data().fornavn);
+    
+document.querySelector("#utskriftAvsnitt").innerHTML +=dokument.data().fornavn+", og " + dokument.data().etternavn +" " +"<br>";
+});
+let inputEl1 = document.querySelector("#fornavn");
+let inputEl2 = document.querySelector("#etternavn");
+document.querySelector("#leggTilKnapp").addEventListener("click", leggTilPunkt);
+//setDoc gir deg mulighet til å bestemme unik id
+function leggTilPunkt(){
+ 
+    setDoc(doc(db, "fornavnEtternavn", inputEl2.value),{  //siste parameter er unik id
+        fornavn: inputEl1.value,
+        etternavn: inputEl2.value
+    });
+}
+```
 
