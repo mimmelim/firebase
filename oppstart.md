@@ -90,12 +90,12 @@ import {
 } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js';
 const firebaseConfig = {
     apiKey: "Sett inn din egen apiKey her",  
-    authDomain: "testeit1febr23.firebaseapp.com",  
-    databaseURL: "https://testeit1febr23-default-rtdb.europe-west1.firebasedatabase.app",  
-    projectId: "testeit1febr23",  
-    storageBucket: "testeit1febr23.appspot.com",  
-    messagingSenderId: "363940739359",  
-    appId: "1:363940739359:web:079d0619fe961150ded82a"  
+    authDomain: "databasenavn.firebaseapp.com",  
+    databaseURL: "***********",  
+    projectId: "*******",  
+    storageBucket: "*****.appspot.com",  
+    messagingSenderId: "*****",  
+    appId: "******"  
   };
   
 // Initialize Firebase
